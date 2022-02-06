@@ -8,7 +8,8 @@
     background: url(4.JPG);
     background-size: cover;
     height: 140vh;
-    transform: scale(1);
+    transform: scale(1.0);
+
 }
 
 .navbar{
@@ -165,7 +166,9 @@ ul li a:hover{
     width: 207.9vh;
     background: url(6.svg);
     background-size: cover;
-    transform: scale(1);
+    transform: scale(1.0);
+    margin-top:inherit;
+    
 }
 
 .content h2{

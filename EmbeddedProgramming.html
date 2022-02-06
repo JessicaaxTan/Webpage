@@ -37,11 +37,152 @@
         </div>
         <div class="content">
             <h2>Embedded Programming</h2>
+            <p class="par">An embedded programming language is a programming language that developers use in embedded systems. For this module, I will be using Arduino as my Embedded System Device.</p>
+            <span style = "padding-left: 40px;"></span>
+            <h4 class="par">What is an Arduino?</h4>
+            <p class="par">Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards are able to read inputs such as light/temperature/sound, and turning it to an output such as activating a motor or turning on an LED. Arduino is an easy and accessible way for software developers to enter the world of microcontroller programming.</p>
+            <h4 class="par">How does an Arduino Work?</h4>
+            <p class="par">An Arduino System comprises of both software and and hardware. We can create any system such as a Traffic Light System, and store the dedicated function in it to perform a specific task. In order to store any function into the Arduino board, we would need to download the software <a class="selected" href="https://www.arduino.cc/en/software"><font color= #ff7200>Arduino IDE</font></a>. The codes that we create can then be uploaded into the Arduino board. The Arduino Board would be connected to a series of electrical components to make the entire system work.</p>
+            <span style = "padding-left: 40px;"></span>
+            <h4 class="par">Here are some types of Arduino boards available:</h4>
+            <img src="arduinoboards.png" style="padding-left: 20px;margin-top: 1%;width:760px;height:450px;margin-bottom: 1%;" >
+            <h4 class="par">A close-up on the Arduino UNO board:</h4>
+            <img src="Arduinolabel.png" style="padding-left: 20px;margin-top: 1%;width:760px;height:470px;margin-bottom: 3%;" >
+            
+             <table>
+                <tr>
+                    <th><strong><font color= #010631>ADVANTAGES</font></strong></th>
+                    <th><strong><font color= #010631>DISADVANTAGES</font></strong></th>
+                </tr>
+                <tr>
+                    <td>1. Minimumal power consumption</td>
+                    <td>1. Can run only a single sketch at a time</td>
+                </tr>
+                <tr>
+                   <td>2. Easy programmable interface</td>
+                   <td>2. Limited number of programming languages</td>
+                </tr>
+                <tr>
+                    <td>3. Inexpensive</td>
+                    <td>3. Small space to work with</td>
+                </tr>
+                <tr>
+                    <td>4. Library of examples available</td>
+                </tr>
+                </table>
+            
+            <span style = "padding-left: 40px;"></span>
+            <h2>Electronic Components</h2>
+            <p class="par">Electronic components are connected together to form a close circuit. A close circuit is made to perform a task such as lighting up a lightbulb. There are 2 types of electronic components, input and output devices. The key distinction between an input and an output device is that an input device sends data to the computer, while an output device receives data from the computer.</p>
+            <span style = "padding-left: 40px;"></span>
+            <h4 class="par">Input Devices</h4>
+            <p class="par">Input devices are used to provide data and control signals to the information processing system such as the Arduino.</p>
+            <p class="par">Below are some basic input devices :</p>
+            <img src="inputdevices.png" style="padding-left: 20px;margin-top: 0%;width:840px;height:260px;margin-bottom: 2.5%;" >
+            <h4 class="par">Output Devices</h4>
+            <p class="par">An output device is a piece of computer hardware that receives data from a computer and then translates that data into another form. That form may be audio, visual, text, or hard copy such as a printed document.</p>
+            <p class="par">Below are some basic output devices :</p>
+            <img src="outputdevices.png" style="padding-left: 20px;margin-top: 0%;width:1050px;height:230px;margin-bottom: 2.5%;" >
+            <h4 class="par">More Basic Electronic Components :</h4>
+            <img src="eletroniccomponents.png" style="padding-left: 20px;margin-top: 1%;width:800px;height:430px;margin-bottom: 0%;" >
+            <p class="par"><strong><font color= #ff7200>Breadboard</font></strong> - a solderless construction base for prototyping of electronics.</p>
+            <p class="par"><strong><font color= #ff7200>Capacitor</font></strong> - a device that stores electrical energy in an electric field; Blocks direct current but allows alternating current to flow through.</p>
+            <p class="par"><strong><font color= #ff7200>Resistor</font></strong> - provides resistance to current flow and divide voltages.</p>
+            <p class="par"><strong><font color= #ff7200>Wires</font></strong> - connects electrical components together.</p>
+            <p class="par"><strong><font color= #ff7200>Potentiometer</font></strong> -  a three-terminal resistor with a sliding or rotating contact that forms an adjustable voltage divider. It can act as a variable resistor/rheostat.</p>
+            <p class="par"><strong><font color= #ff7200>Diode</font></strong> - allows the flow of current in only one direction.</p>
+            <p class="par"><strong><font color= #ff7200>7-Segment Display</font></strong> - a form of electronic display device for displaying decimal numerals.</p>
+            <span style = "padding-left: 40px;"></span>
+            
+            <h4 class="par">Important Formulas</h4>
+            <p class="par"><strong>Ohms Law :</strong> Voltage = Current * Resistance (V=IR)</p>
+            <p class="par"><strong>Power :</strong> Power = Voltage * Current (P=VI)</p>
+            <p class="par"><strong>Kirchoff's Voltage Law</strong> states that the sum of all voltages around any closed loop in a circuit must equate to zero.</p>
+            <p class="par"><strong>Kirchoff's Current Law</strong> states that current flowing into a node (or a junction) must be equal to current flowing out of it.</p>
+            <span style = "padding-left: 40px;"></span>
+            
+            <p class="par">Below are some useful links before we dive into programming:</p>
+            <p class="par">1. <a class="selected" href="https://www.youtube.com/watch?v=6Maq5IyHSuc"><font color= #ff7200>A simple guide to electronic components</font></a></p>
+            <p class="par">2. <a class="selected" href="https://www.arrow.com/en/research-and-events/articles/resistor-color-code"><font color= #ff7200>How to Read Resistor Color Codes</font></a></p>
+            <p class="par">4. <a class="selected" href="https://www.youtube.com/watch?v=W6mixXsn-Vc"><font color= #ff7200>Breadboard tutorial: How to use a breadboard (for beginners)</font></a></p>
+            <p class="par">3. <a class="selected" href="https://www.youtube.com/watch?v=nL34zDTPkcs"><font color= #ff7200>You can learn Arduino in 15 minutes</font></a></p>
+            
+            <h2>Arduino Programming</h2>
+            <p class="par">I will be using <a class="selected" href="https://www.tinkercad.com/dashboard"><font color= #ff7200>Tinkercad</font></a> to try out different simulations of different circuits.  Tinkercad is a free online 3d modelling, circuit building and coding website. As designing a circuit is dangerous and not easy, Tinkercad helps me to check if my wiring of a circuit is correct. This would prevent any accidents or damaging physical eletronic components from happening.</p> 
+            <p class="par">Before we start on some mini Arduino projects, I will be going through some common programming language that anyone should know before they start.</p>
+            <span style = "padding-left: 40px;"></span>
+            
+            <h4 class="par">Arduino Programming Language :</h4>
+            <span style = "padding-left: 40px;"></span>
+            <p class="par">Arduino programming language can be divided in three main parts: functions, values (variables and constants), and structure. Click <a class="selected" href="https://www.arduino.cc/reference/en/"><font color= #ff7200>here</font></a> to understand what each Arduino code does.</p> 
+            <span style = "padding-left: 40px;"></span>
+            
+            <p class="par"><strong>Functions :</strong></p>
+            <p class="par">Functions are blocks of code that perform a specific task. It must return a result, which is the data type of the function declaration. They are also declared outside any other functions, usually below the loop function.</p>
+            <img src="function1.png" style="padding-left: 20px;margin-top: 0.8%;width:500px;height:320px;margin-bottom: 0%;" >
+            <p class="par">The Arduino Uno board has 14 pins which can be configured as digital I/O. It means giving/receiving logic levels of HIGH (+5V) or LOW (0V). The input or output is configured using the software.</p>
+            <p class="par"><strong><font color= #ff7200>pinMode()</font></strong> is used to configure the port to be input or output. The port stays in this mode until another pinMode() is applied, reset occurs or powered off.</p>
+            <p class="par"><strong><font color= #ff7200>digitalRead()</font></strong> is used to read the input.</p>
+            <p class="par"><strong><font color= #ff7200>digitalWrite()</font></strong> is to output a value.</p>
+            <p class="par">The Arduino Uno board has 6 pins which can be configured as analog I/O. Signals from sensors that measure temperature, pressure, or flow rate are analog signals. It's value continually varies over time.</p>
+            <p class="par"><strong><font color= #ff7200>analogRead()</font></strong> is used to reads the value from the specified analog pin.</p>
+            <span style = "padding-left: 40px;"></span>
+            
+            <p class="par"><strong>Variables :</strong></p>
+            <p class="par">Variables consists of data types and constants.</p>
+            <p class="par">A <strong><font color= #ff7200>data type</font></strong> determines the amount of memory required to store the bit pattern and how the storage is interpreted.</p>
+            <img src="Datatype.png" style="padding-left: 20px;margin-top: 0.8%;width:700px;height:400px;margin-bottom: 0%;" >
+            <p class="par">When you require a value that does not change through-out the program, Declaring a <strong><font color= #ff7200>constant</font></strong> keep track of it. A constant has an identifier as well as a value.</p>
+            <img src="constant.png" style="padding-left: 20px;margin-top: 0.8%;width:700px;height:400px;margin-bottom: 3.5%;" >
+            
+            <p class="par"><strong>Structure :</strong></p>
+            <p class="par">Structured programming can reduce the occurance of logical errors in any programming language. It is a technique that specifies the method of writing a code which is easy to follow and understand.</p>
+            <img src="structuredprogramming.png" style="padding-left: 20px;margin-top: 0.8%;width:800px;height:380px;margin-bottom: 3.5%;" >
+            
+    
+            
+            
+            
+            <span style = "padding-left: 40px;"></span>
+            
+            <h4 class="par">Traffic Light System :</h4>
+            <p class="par">How it Works: The Serial Monitor would show 'DON'T WALK'. At the same time, the <font color=FF0000>Red</font> LED would be on. When the push button switch is pressed, nothing will change for 5 seconds. After 5 seconds, the Serial Monitor would show 'WALK'. At the same time, the <font color=00FF12>Green</font> LED would turn on for 6 seconds. After 6 seconds, the cycle will repeat.</p>
+            <img src="tinkercadtraffic.png" style="padding-left: 20px;margin-top: 0.8%;width:895px;height:350px;margin-bottom: 0%;" >
+            <figure><iframe src=https://create.arduino.cc/editor/jessicatan12/748f5a01-0317-4517-b5fb-a420d66099bd/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe></figure>
+            <embed style="padding-left: 20px;margin-top: 0.5%;margin-bottom: 2%;width:720px;height:450px;" src="https://www.youtube.com/embed/qkTdjZKbFzg">
+            <p class="par"><strong>Here's a quick guide on creating the simulation :</strong></p>
+            <embed src="trafficlightsystemex.pdf" type="application/pdf" />
+            <p class="par">1. Firstly, go to the Tinkercad website. Go to Circuits > Create new Circuit.</p>
+            <p class="par">2. At the right bar, type out the electronic components you need. The components we need would be : Arduino UNO (1), Breadboard(1), <font color=FF0000>Red</font> LED(1), <font color=00FF12>Green</font> LED(1), Push Button Switch(1), 220 ohms Resistor(2) and 10 kohm Resistor(1).</p>
+            <p class="par">3. To change the resistor's value, click on the resistor and change to your desired value.</p>
+            <p class="par">4. I have arranged the layout of the circuit.</p>
+            <p class="par">5. Connect the components together using wires. To change the colour of the wire, click on the icon as shown.</p>
+            <p class="par">6. We can finally code the circuit. Go to Code > Blocks > choose Text.</p>
+            <p class="par">7. Type in the code. Click on <strong><font color= #ff7200>Start Simulation</font></strong> and open the <strong><font color= #ff7200>Serial Monitor</font></strong>.</p>
+            <span style = "padding-left: 40px;"></span>
+            
+            <h4 class="par">Servo Motor Control with Potentiometer :</h4>
+            <p class="par">How it Works: When the potentiometer is being rotated, the servo motor would rotate along with it. The potentiometer is controlling the servo motor.</p>
+            <img src="controlservomotor.png" style="padding-left: 20px;margin-top: 0.8%;width:680px;height:380px;margin-bottom: 0%;" >
+            <figure><iframe src=https://create.arduino.cc/editor/jessicatan12/df1990b0-d0c4-4884-9475-64a3f90827e7/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe></figure>
+            <embed style="padding-left: 20px;margin-top: 0.5%;margin-bottom: 3.5%;width:720px;height:450px;" src="https://www.youtube.com/embed/bZWyzsTlA_Y">
+            
+            <h4 class="par">Temperature Sensor :</h4>
+            <p class="par">How it Works: The Serial Monitor would show 3 kinds of data. They are Code, Meaured Voltage, and Temperature. When the potentiometer is being rotated, the voltage meassured would be converted to the following code and temperature respectively. The data would be updated every 2 seconds.</p>
+            <img src="temperature.png" style="padding-left: 20px;margin-top: 0.8%;width:790px;height:320px;margin-bottom: 0%;" >
+            <figure><iframe src=https://create.arduino.cc/editor/jessicatan12/1aaa906f-68fc-47c7-be5c-ce93d82227d3/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe></figure>
+            <embed style="padding-left: 20px;margin-top: 0.5%;margin-bottom: 3.5%;width:720px;height:450px;" src="https://www.youtube.com/embed/gkPYrpgHEmg">
+            
+            <h4 class="par">PIR Sensor :</h4>
+            <p class="par">How it Works: When the PIR Sensor detects a motion, the Serial Monitor show 'Motion detected!' and then 'Motion stopped!'. The <font color=FF0000>Red</font> LED would turn on for half a second when any motion is detected.</p>
+            <img src="PIRsensor.png" style="padding-left: 20px;margin-top: 0.8%;width:710px;height:320px;margin-bottom: 0%;" >
+            <figure><iframe src=https://create.arduino.cc/editor/jessicatan12/e06b992c-2a1f-4af3-8372-e0846e705c6d/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe></figure>
+            <embed style="padding-left: 20px;margin-top: 0.5%;margin-bottom: 3.5%;width:720px;height:450px;" src="https://www.youtube.com/embed/Zuk324x8cPk">
+            
         </div>
-        
- 
     </div>
 </body>
+
 </html>
 
 
