@@ -130,9 +130,40 @@
             
             <h2>Final Electrical Circuit</h2>
             <img src="finalcircuit.png" style="padding-left: 20px;margin-top: 1%;width:960px;height:540px;margin-bottom: 1%;" >
+            <p class="par">For the electrical circuit, I will be using an external power source to power it. This is because I am having 5 servo motors in my circuit. The current drawn from these motors would be really high. The 5V source from the Arduino UNO would not be able to handle it. I have also removed 3 resistors, which was suppose to be connected by the Push Button. The reason why I am able to remove the resistors is due to my code. I will be explaining it below. </p>
             
-        
+            <h2>Fabrication</h2>
+            <p class="par">How I'll be fabricating my 3D model parts is by Laser Cutting and 3D Printing.</p>
+            <p class="par">For Laser Cutting, I would need to import the 2D face and get the .svg file.</p>
+            <h4 class="par">Here's the final .svg files:</h4>
+            <embed src="robotinkscape.pdf" type="application/pdf" />
+            <embed style="padding-left: 20px;margin-top: 0.5%;width:720px;height:450px;margin-bottom: 0%;" src="https://www.youtube.com/embed/Lh-30nCYH2M">
+            <img src="robotlaserpart.PNG" style="padding-left: 20px;margin-top: 0%;width:640px;height:360px;margin-bottom: 1%;" >
+            <span style = "padding-left: 40px;"></span>
+            <p class="par">For 3D Printing, I would need to slice the 3D model to get the gcode file.</p>
+            <h4 class="par">Here's my sliced the parts:</h4>
+            <embed src="robotslice.pdf" type="application/pdf" />
+            <embed style="padding-left: 20px;margin-top: 0.5%;width:720px;height:450px;margin-bottom: 3.5%;" src="https://www.youtube.com/embed/FqEPkWqA5-Y">
+            <h4 class="par">Assembly:</h4>
+            <embed style="padding-left: 20px;margin-top: 0.5%;width:720px;height:450px;margin-bottom: 0%;" src="https://www.youtube.com/embed/vaEFY0ZCEIw">
             
+            <h2>Troubleshooting</h2>
+            <p class="par">After assembling the Mini Robotic Arm, I decided to test out each servo motor individually. The code I used is just to make the servo motor move 180 degrees clockwise, anticlockwise, and then stop. However, I have faced a problem. The servo motor would always reset itself halfway through the program.</p>
+            <embed style="padding-left: 20px;margin-top: 0.5%;width:720px;height:450px;margin-bottom: 0%;" src="https://www.youtube.com/embed/vOJMtAhLUOQ">
+            <p class="par">When I was testing the servo motor out, I was using a battery pack.</p>
+            <img src="batterybox.PNG" style="padding-left: 20px;margin-top: 0%;width:640px;height:360px;margin-bottom: 1%;" >
+            <p class="par">I went on to ask Mr Steven for help, and he suggested me to use a bench power supply or a 6V power adapter as the current flow would be much more stable. Therefore, I went on to use a 6V power adaptor I found at home to test it out. Thankfully, it worked.</p>
+            
+            <h2>Programming</h2>
+            <figure><iframe src=https://create.arduino.cc/editor/jessicatan12/7d851e26-330a-40a1-bdb7-04f7bcb0b490/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe></figure>
+            <p class="par">Since there are 3 Push Buttons, I would be using the if-else statement.</p>
+            <img src="if-else.png" style="padding-left: 20px;margin-top: 0%;width:800px;height:150px;margin-bottom: 1%;" >
+            <p class="par">Earlier on, I mentioned that no resistors are connected to the Push Buttons. This is because in <strong><font color= #ff7200>void_setup()</font></strong>, the <strong><font color= #ff7200>pinMode(BUTTON, INPUT_PULLUP);</font></strong> code actually tells the arduino to give some resistance to the Push Buttons. Therefore, I did not use any resistors in my circuit.</p>
+            <span style = "padding-left: 40px;"></span>
+            
+            <h2>Conclusion</h2>
+            <p class="par">Overall, I have learnt a lot after making this Mini Robotic Arm. Although it took a lot of time and effort to make one, I am really happy with the final product. I would also like to thank Mr Steven for his help and advice. This journey would definitely be a start as I wish to make something more complex in the future!</p>
+            <span style = "padding-left: 40px;"></span>
             
         </div>
 
