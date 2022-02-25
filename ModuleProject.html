@@ -46,7 +46,7 @@
             <span style = "padding-left: 40px;"></span>
             
             <h2>Prototype</h2>
-            <p class="par">Since I am from the Diploma of Robotics and Mechatronics, I have some knowledge of making a 3D model as well as programming from scratch. However, I have never made an electrical schematic on my own. Therefore, I have decided to make a prototype.</p>
+            <p class="par">Since I am from the Diploma of Robotics and Mechatronics, I have some knowledge of making a 3D model as well as programming from scratch. However, I have never made an electrical schematic on my own. Therefore, I have decided to make a prototype to test whether my idea would or would not work.</p>
             
             <p class="par">Here's how the 3D model prototype looked like:</p>
             <figure><iframe src="https://hotmail196527.autodesk360.com/shares/public/SH35dfcQT936092f0e43699361576d931ffc?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe></figure>
@@ -62,7 +62,7 @@
             <img src="ciruitprototype.png" style="padding-left: 20px;margin-top: 1%;width:640px;height:360px;margin-bottom: 0%;" >
             <figure><iframe src=https://create.arduino.cc/editor/jessicatan12/7c42b9af-6949-4e80-99c8-41a968559ba0/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe></figure>
             <embed style="padding-left: 20px;margin-top: 0.5%;width:720px;height:450px;margin-bottom: 0.3%;" src="https://www.youtube.com/embed/pL3M1Fp5OXM">
-            <p class="par">I have learnt a lot from making the prototype. E.g. The tolerance value as the 3D printer does not print the exact size that I made in Fusion360, as well as designing the circuit all by myself. Now, let's move on to the final version of the Mini Robotic Arm project.</p>
+            <p class="par">I have learnt a lot from making the prototype. E.g. Tolerance value as the 3D printer does not print the exact size I have made in Fusion360, torque of the TowerPro SG90 Servo Motor, as well as designing the circuit all by myself. Now, let's move on to the final version of the Mini Robotic Arm project.</p>
             <span style = "padding-left: 40px;"></span>
             
             <h2>Final Mini Robotic Arm</h2>
@@ -75,12 +75,14 @@
             <p class="par"><strong><font color= #ff7200>Output Device :</font></strong> LEDs and Servo Motors.</p>
             <span style = "padding-left: 40px;"></span>
             <h4 class="par">How it'll work:</h4>
-            <p class="par">Since there are 3 Push Buttons, each Push Buttons contain a pre-programmed code. The <font color=00FF12>Green</font> LED would always be turned on when none of the Push Buttons are pressed. When any of the Push Button is pressed, the <font color=00FF12>Green</font> LED would turn off and the <font color=FF0000>Red </font> LED would turn on. The pre-programmed code would then be executed.</p>
+            <p class="par">Since there are 3 Push Buttons, each Push Button will contain a pre-programmed code. The <font color=00FF12>Green</font> LED would always be turned on when none of the Push Buttons are pressed. When any of the Push Button is pressed, the <font color=00FF12>Green</font> LED would turn off and the <font color=FF0000>Red </font> LED would turn on. The pre-programmed code would then be executed.</p>
             
             <span style = "padding-left: 40px;"></span>
             
             <h4 class="par">Bill of Materials:</h4>
-            <img src="BOM.png" style="padding-left: 20px;margin-top: 1%;width:820px;height:480px;margin-bottom: 3.5%;" >
+            <img src="BOM.png" style="padding-left: 20px;margin-top: 1%;width:960px;height:480px;margin-bottom: 0%;" >
+            <p class="par">I decided to use 3 MG996R Servo Motors as the torque is much higher. A higher torque value means that I do not have to worry about the weight the Servo Motor has to carry.</p>
+            <span style = "padding-left: 40px;"></span>
             
             <h4 class="par">Here's the final 3D Model:</h4>
             <figure><iframe src="https://hotmail196527.autodesk360.com/shares/public/SH35dfcQT936092f0e43a5886664a30bba13?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe></figure>
@@ -130,11 +132,12 @@
             
             <h2>Final Electrical Circuit</h2>
             <img src="finalcircuit.png" style="padding-left: 20px;margin-top: 1%;width:960px;height:540px;margin-bottom: 1%;" >
-            <p class="par">For the electrical circuit, I will be using an external power source to power it. This is because I am having 5 servo motors in my circuit. The current drawn from these motors would be really high. The 5V source from the Arduino UNO would not be able to handle it. I have also removed 3 resistors, which was suppose to be connected by the Push Button. The reason why I am able to remove the resistors is due to my code. I will be explaining it below. </p>
+            <img src="robotwiring.PNG" style="padding-left: 20px;margin-top: 1%;width:960px;height:540px;margin-bottom: 1%;" >
+            <p class="par">For the electrical circuit, I will be using an external power source to power it. This is because I am having 5 servo motors in my circuit. The current drawn from these motors would be really high. The 5V source from the Arduino UNO would not be able to handle it. I have also removed 3 resistors, which was suppose to be connected with the Push Buttons. The reason why I am able to remove the resistors is due to my code. I will be explaining it at the Programming part.</p>
             
             <h2>Fabrication</h2>
             <p class="par">How I'll be fabricating my 3D model parts is by Laser Cutting and 3D Printing.</p>
-            <p class="par">For Laser Cutting, I would need to import the 2D face and get the .svg file.</p>
+            <p class="par">For Laser Cutting, I would need to import the 2D face of the 3D model, and get the .svg file.</p>
             <h4 class="par">Here's the final .svg files:</h4>
             <embed src="robotinkscape.pdf" type="application/pdf" />
             <embed style="padding-left: 20px;margin-top: 0.5%;width:720px;height:450px;margin-bottom: 0%;" src="https://www.youtube.com/embed/Lh-30nCYH2M">
@@ -149,10 +152,11 @@
             
             <h2>Troubleshooting</h2>
             <p class="par">After assembling the Mini Robotic Arm, I decided to test out each servo motor individually. The code I used is just to make the servo motor move 180 degrees clockwise, anticlockwise, and then stop. However, I have faced a problem. The servo motor would always reset itself halfway through the program.</p>
-            <embed style="padding-left: 20px;margin-top: 0.5%;width:720px;height:450px;margin-bottom: 0%;" src="https://www.youtube.com/embed/vOJMtAhLUOQ">
-            <p class="par">When I was testing the servo motor out, I was using a battery pack.</p>
-            <img src="batterybox.PNG" style="padding-left: 20px;margin-top: 0%;width:640px;height:360px;margin-bottom: 1%;" >
+            <embed style="padding-left: 20px;margin-top: 0.5%;width:720px;height:450px;margin-bottom: 0%;" src="https://www.youtube.com/embed/mm6hF-2Pb70">
+            <p class="par">The external power source when I was testing the servo motor, was battery pack.</p>
+            <img src="batterybox.PNG" style="padding-left: 20px;margin-top: 0%;width:640px;height:360px;margin-bottom: 0%;" >
             <p class="par">I went on to ask Mr Steven for help, and he suggested me to use a bench power supply or a 6V power adapter as the current flow would be much more stable. Therefore, I went on to use a 6V power adaptor I found at home to test it out. Thankfully, it worked.</p>
+            <img src="6Vadaptor.PNG" style="padding-left: 20px;margin-top: 0%;width:640px;height:360px;margin-bottom: 3.5%;" >
             
             <h2>Programming</h2>
             <figure><iframe src=https://create.arduino.cc/editor/jessicatan12/7d851e26-330a-40a1-bdb7-04f7bcb0b490/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe></figure>
@@ -162,7 +166,7 @@
             <span style = "padding-left: 40px;"></span>
             
             <h2>Conclusion</h2>
-            <p class="par">Overall, I have learnt a lot after making this Mini Robotic Arm. Although it took a lot of time and effort to make one, I am really happy with the final product. I would also like to thank Mr Steven for his help and advice. This journey would definitely be a start as I wish to make something more complex in the future!</p>
+            <p class="par">Overall, I have learnt a lot after making this Mini Robotic Arm. Although it took a lot of time and effort to make one, I am really happy with the final product. If I had more time, I would try to make the physical circuit wirings neater, as well as improving the codes. I would like to thank Mr Steven for his help and advice. This journey would definitely be a start as I wish to make something more complex in the future!</p>
             <span style = "padding-left: 40px;"></span>
             
         </div>
